@@ -41,9 +41,9 @@ public class RemoteControl {
     Command[] offCommands;
     public RemoteControl() {
         onCommands = new Command[5];
-        offCommands = new Command57];
+        offCommands = new Command[5];
     Command noCommand = new NoCommand();
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 5; i++) {
         onCommands[i] = noCommand;
         offCommands[i] = noCommand;
     }
@@ -76,14 +76,13 @@ We can easily implement undo feature by modifying Command interface and keep tra
 ```Java
 public interface Command {
     public void execute();
-    poblic void undo();
+    public void undo();
 }
 
 ```
 
-## Defination
-The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests(see below), and support
-undoable operations.
+## Definition
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests(see below), and support undoable operations.
 
 ## Other Use cases
 1. Queuing requests: add commands to the queue on one end, and on the other end sit a group of threads. Threads remove a command from the queue, call its execute() method,wait for the call to finish, then discard the command object and retrieve a new one

@@ -65,3 +65,4 @@ private void printAll(Iterator<E> iterator) {
 ```
 
 ## Definition
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.

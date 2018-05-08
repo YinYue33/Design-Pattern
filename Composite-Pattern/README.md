@@ -1,11 +1,11 @@
 # Composite Pattern
 
 ## Motivation
-As a menu designer in a fancy reteraurant in Manhatton, you decided to add a dessert sub menu to the Dinner menu to attract those who addicted to desserts. Dessert menu should be a menu and a menu item of Dinner Menu.
-[sub dessert menu](Submenu.jgp)
+As a menu designer in a fancy reteraurant in Manhatton, you decided to add a dessert sub menu to the Dinner menu to attract those who addicted to desserts. Dessert menu should be a menu, also it's a menu item of Dinner Menu.
+![sub dessert menu](Submenu.jgp)
 
 ## Goal
-What we want is taken dessert menu as a menu and a menu item at the same time. Similar cases includes: 
+What we want is to think of dessert menu as a menu and a menu item at the same time. Similar cases includes: 
 * In graphic application, we want to treat a component and a group of components the same (such as you group some shapes and move them as it is just one component)
 * Equitments are often organized into part-whole hierarchies. Chassis contain drices and planar boards, a bus contains cards, a cabinet contains chassis, buses and so forth
 
@@ -147,8 +147,8 @@ public class NullIterator<C> implements Iterator<C> {
     }
 }
 ```
-### Client1: iterator all items in the menu, print it if it is a menu item
-This is an external iterator, can be used to iterator each element in the menu
+### Client1: iterate all items in the menu, print it if it is a menu item
+This is an external iterator, can be used to iterate each element in the menu
 ```Java
 public void printMenu(Menu menu) {
     Iterator<MenuComponent> iterator = menu.createIterator();

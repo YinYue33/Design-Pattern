@@ -54,9 +54,8 @@ public class ArrayIterator<E> implements Iterator<E> {
     }
 }
 ```
-
+### Client
 ```Java
-client
 private void printAll(Iterator<E> iterator) {
     while (iterator.hasNext()) {
         System.out.print(iterator.next());

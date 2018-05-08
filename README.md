@@ -6,3 +6,5 @@
 - [Composite Pattern](Composite-Pattern/)
 
 - [State Pattern](State-Pattern/)
+
+- [Proxy-Pattern](Proxy-Pattern/)

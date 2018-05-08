@@ -1,7 +1,8 @@
 # State Pattern
 
 ## Motivation
-A gumball machine is commonly seen in the shopping mall. To get a gumball, you inset a quarter, turns the crank and your gumball will drop off the container. The gumball machine has several states and it behavors changes according its current state. For example, you can get your gumball after turning the crank only if you are in the HasQuaterState.
+A gumball machine is commonly seen in the shopping mall. To get a gumball, you insert a quarter, turns the crank and your gumball will drop off the container. The gumball machine has several states and its behavors change according its current state. For example, you can get your gumball after turning the crank only if you are in the HasQuaterState.
+
 ![Gumball State](Gumball-State.jpg)
 
 ## Goal

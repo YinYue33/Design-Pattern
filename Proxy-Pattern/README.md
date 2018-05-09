@@ -56,7 +56,7 @@ class ImageProxy implements Icon {
         }
     }
 }
-```Java
+ 
 public class ImageProxyTestDrive {
 
     ImageComponent imageComponent;
@@ -88,7 +88,7 @@ Java RMI(remote method invocation), see codes under the folder: Remote-Proxy
 
 # Protection Proxy
 ## Motivation
-In a matchmaking application, only the owner of the account can change hid interest while only others can rate him. We need to provide some access control for this application
+In a matchmaking application, only the owner of the account can change his interest while only others can rate him. We need to provide some access control for this application
 
 ## Goal
 controls access to a resource based on access rights.
